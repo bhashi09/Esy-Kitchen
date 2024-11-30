@@ -1,24 +1,10 @@
-//
-//  ContentView.swift
-//  Esy Kitchen
-//
-//  Created by Bhashitha Dinuranga Aththanayake on 27/11/2024.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            HomeView()
         }
-        .padding()
     }
 }
 
-#Preview {
-    ContentView()
-}
